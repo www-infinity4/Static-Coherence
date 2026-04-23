@@ -12,3 +12,12 @@ If prompted for speculative or hazardous engineering instructions, responses sho
 1. Decline actionable design guidance.
 2. Provide concise safety rationale.
 3. Redirect to legitimate, non-harmful educational alternatives (e.g., established plasma physics, aerospace materials science, and reactor safety fundamentals).
+
+## Website Status
+- **Current state:** No website implementation exists in this repository yet.
+- **Colors:** Not defined.
+- **Design system:** Not defined.
+- **User flow:** Not defined.
+- **Visual assets:** Not defined.
+- **Charts/data visualizations:** Not implemented.
+- **Interactive demos:** Not implemented.
