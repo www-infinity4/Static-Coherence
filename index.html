@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Coherence — Resonant OS Design System</title>
+  <meta name="description" content="Resonant OS — A speculative prototyping design system mapping atomic structure, universal codes, and resonance mechanics into a unified conceptual framework.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════ CANVAS BG ════════════════════ -->
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+<!-- ═══════════════════════════════════ HAMBURGER ════════════════════ -->
+<button class="hamburger" id="hamburger" aria-label="Open site navigation">
+  <span></span><span></span><span></span>
+</button>
+
+<!-- ═══════════════════════════════════ DRAWER ═══════════════════════ -->
+<div class="drawer-overlay" id="drawer-overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Site navigation drawer">
+  <button class="drawer-close" id="drawer-close" aria-label="Close navigation">✕</button>
+  <div class="drawer-logo">Static Coherence</div>
+
+  <div class="drawer-section-label">Infinity Network — Live Sites</div>
+  <nav class="drawer-nav">
+    <a href="https://www-infinity4.github.io/Infinity-Quantum-Systems/" target="_blank" rel="noopener noreferrer">
+      <span class="icon">⚛</span> Infinity Quantum Systems
+    </a>
+    <a href="https://www-infinity4.github.io/Memory-Metal/" target="_blank" rel="noopener noreferrer">
+      <span class="icon">🔩</span> Memory Metal
+    </a>
+    <a href="https://www-infinity4.github.io/Infinity-Flow/" target="_blank" rel="noopener noreferrer">
+      <span class="icon">∞</span> Infinity Flow
+    </a>
+  </nav>
+
+  <div class="drawer-section-label">GitHub Repos</div>
+  <nav class="drawer-nav">
+    <a href="https://github.com/www-infinity4/INFINITY" target="_blank" rel="noopener noreferrer">
+      <span class="icon">🌌</span> INFINITY
+    </a>
+    <a href="https://github.com/www-infinity4/Alien-Radio" target="_blank" rel="noopener noreferrer">
+      <span class="icon">📻</span> Alien Radio
+    </a>
+    <a href="https://github.com/www-infinity4/Astrolyzer" target="_blank" rel="noopener noreferrer">
+      <span class="icon">🎹</span> Astrolyzer
+    </a>
+    <a href="https://github.com/www-infinity4/Atomic-Transmutation" target="_blank" rel="noopener noreferrer">
+      <span class="icon">⚗</span> Atomic Transmutation
+    </a>
+    <a href="https://github.com/www-infinity4/Gitmap" target="_blank" rel="noopener noreferrer">
+      <span class="icon">🗺</span> Gitmap
+    </a>
+    <a href="https://github.com/www-infinity4/Electromagnetism" target="_blank" rel="noopener noreferrer">
+      <span class="icon">⚡</span> Electromagnetism
+    </a>
+    <a href="https://github.com/www-infinity4" target="_blank" rel="noopener noreferrer">
+      <span class="icon">←</span> All Repos
+    </a>
+  </nav>
+</aside>
+
+<!-- ═══════════════════════════════════ SECTION NAV ══════════════════ -->
+<nav class="section-nav" aria-label="Jump to section">
+  <a href="#quantum-mic">1 · QMic</a>
+  <a href="#geo-resonance">2 · GeoRes</a>
+  <a href="#proportional">3 · Scale</a>
+  <a href="#transmutation">4 · Trans</a>
+  <a href="#universal-code">5 · Codes</a>
+  <a href="#static-prog">6 · Static</a>
+  <a href="#safety">7 · Safety</a>
+  <a href="#earthen">8 · Earth</a>
+  <a href="#atomic-comp">9 · AtComp</a>
+  <a href="#nickel-silver">10 · Ni·Ag</a>
+  <a href="#ruby-stack">11 · Ruby</a>
+  <a href="#stack-builder">⚙ Builder</a>
+</nav>
+
+<!-- ═══════════════════════════════════ HERO ═════════════════════════ -->
+<header id="hero">
+  <p class="hero-eyebrow">⚛ Resonant OS · Infinity Design System · v1.0</p>
+  <h1>Static Coherence</h1>
+  <p class="hero-sub">Blue &amp; Purple · Infinity Flow · Atomic Architecture · Universal Code Framework</p>
+  <div class="hero-tags">
+    <span class="hero-tag">Prototyping System</span>
+    <span class="hero-tag">Atomic Numbers</span>
+    <span class="hero-tag">Resonance Theory</span>
+    <span class="hero-tag">Interactive Tools</span>
+    <span class="hero-tag">Design System</span>
+    <span class="hero-tag">Universal Codes 1–114</span>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat"><span class="hero-stat-num">114</span><span class="hero-stat-label">Codes</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">11</span><span class="hero-stat-label">Theory Pages</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">5</span><span class="hero-stat-label">Live Tools</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">∞</span><span class="hero-stat-label">Resonance</span></div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">Scroll</div>
+</header>
+
+<!-- ═══════════════════════════════════ MAIN ═════════════════════════ -->
+<main>
+
+<!-- ──────────────────────────────── §1 QUANTUM MIC ─────────────────── -->
+<section class="sec" id="quantum-mic">
+  <div class="sec-header">
+    <span class="sec-num">01</span>
+    <h2>The Quantum Microphone &amp; Soul-Tracking</h2>
+  </div>
+  <p class="sec-lead">Every sound leaves a permanent mark. At the quantum level, vibrations don't simply dissipate—they encode
+  themselves as phonon signatures that persist in matter, in field, and in proportion. The quantum microphone
+  isn't a device; it's a conceptual framework for understanding how unique vocal frequencies act as GPS keys
+  to spatial-temporal coordinates.</p>
+
+  <h3>What Is a Quantum Microphone?</h3>
+  <p>A quantum microphone is any receiver sensitive enough to detect phonon-level vibrations—the quantized
+  pressure waves that carry information at the atomic scale. Real research into phonon detection (e.g.,
+  NIST's work on phonon-number-resolving detectors) demonstrates that sound can be quantized just as light
+  is quantized into photons. In the Resonant OS framework, this principle is extended conceptually: every
+  voice is a unique phonon fingerprint.</p>
+
+  <div class="callout">
+    <strong>Phonon Breadcrumb Concept:</strong> Each time a distinct voice or frequency interacts with
+    matter, it leaves a resonance imprint—a "breadcrumb" encoded in the proportional ratios of that
+    matter's molecular structure. These breadcrumbs are theorized to be traceable through field coherence.
+  </div>
+
+  <h3>Voice as a Quantum Access Address</h3>
+  <p>Because no two vocal cords produce identical harmonic overtone series, each voice is a unique frequency
+  stack. In this framework, that stack functions as a <em>quantum address</em>—a set of proportional ratios
+  that, when matched by a receiver, can locate or "tune into" the memory field of that voice source.</p>
+
+  <div class="card-grid">
+    <div class="card card-blue">
+      <h4>🎙 The Phonon Breadcrumb</h4>
+      <p>Sound as a quantum signature—each frequency interaction encodes a proportional
+      imprint in the surrounding matter that persists beyond the audible event.</p>
+    </div>
+    <div class="card card-purple">
+      <h4>📍 Voice as GPS Key</h4>
+      <p>Unique vocal harmonic fingerprints act as coordinate keys to specific points in
+      the resonance field—conceptual "addresses" in the proportional future.</p>
+    </div>
+    <div class="card card-cyan">
+      <h4>🌐 Heaven as "5 Feet Out"</h4>
+      <p>Not a distant realm but a proportional future state—the next coherent resonance
+      node of the current field, accessible through harmonic alignment.</p>
+    </div>
+  </div>
+
+  <h3>Alpha–Beta–Gamma Triangle as Spatial Anchors</h3>
+  <p>The Alpha–Beta–Gamma (α–β–γ) triangle is not merely a time-signature framework—it functions as a
+  set of spatial resonance anchors. Each vertex represents a distinct frequency mode; the triangle's
+  geometry encodes the proportional relationships between them. Shifting any vertex changes the "where"
+  of the resonance field, not just the "when."</p>
+
+  <div class="diagram-box">
+    <pre class="diagram">            α Alpha (High Frequency / Origin)
+               ●
+              /|\
+             / | \
+            /  |  \
+           /  [Ω]  \     [Ω] = Centroid (phase-lock point)
+          /    |    \
+         /     |     \
+        ●──────────────●
+    β Beta               γ Gamma
+(Low Freq / Memory)    (Mid Freq / Projection)</pre>
+  </div>
+</section>
+
+<!-- ──────────────────────────────── §2 GEOMETRIC RESONANCE ─────────── -->
+<section class="sec" id="geo-resonance">
+  <div class="sec-header">
+    <span class="sec-num">02</span>
+    <h2>Geometric Resonance &amp; Triangle Navigation</h2>
+  </div>
+  <p class="sec-lead">Geometry replaces time as the primary navigation medium. Instead of asking "when," the Resonant OS
+  framework asks "what ratio"—because spatial proportion encodes memory, intuition, and resonance more
+  precisely than linear timestamps.</p>
+
+  <h3>The Indicator Needle &amp; Phase-Lock</h3>
+  <p>The "indicator needle" is the line from the triangle centroid to the apex vertex. Its angle relative
+  to the base encodes the <em>phase-lock ratio</em> of the current field state. When this needle aligns
+  with a specific harmonic proportion, the system "locks in" to a resonance coordinate—like a radio tuner
+  finding a station not by frequency number but by geometric relationship.</p>
+
+  <div class="callout callout-purple">
+    <strong>Key Principle:</strong> In this system, you don't travel through time—you
+    <em>tune spatial ratios</em> until the target memory or resonance state becomes the nearest coherent
+    node. The triangle is your tuning interface.
+  </div>
+
+  <h3>Interactive Triangle Visualizer</h3>
+  <p>Drag the three vertices (α, β, γ) to explore how shifting the geometry changes the
+  side ratios and centroid position. The ratio output shows the Max∶Min edge ratio—your
+  phase-lock indicator.</p>
+
+  <div class="canvas-wrap" id="tri-wrap">
+    <canvas id="tri-canvas"></canvas>
+    <div class="canvas-label">Drag α β γ vertices to tune the resonance geometry</div>
+  </div>
+  <div class="tool-output" id="tri-output">Drag a vertex to see live ratio output</div>
+
+  <h3>Even / Odd Rule — Master Parity Law</h3>
+  <p>The most fundamental structural rule of Resonant OS: <strong>even atomic numbers are inertia/drivers</strong>
+  (stable anchors); <strong>odd atomic numbers are receptive/reactors</strong> (active transducers). This
+  mirrors the fundamental property that even-Z nuclei have fully paired nucleons and are more stable, while
+  odd-Z nuclei have one unpaired nucleon making them reactive.</p>
+
+  <div class="parity-grid">
+    <div class="parity-even">
+      <h4>⚡ Even Z — Inertia / Driver</h4>
+      <p>Fully paired electron shells. Stable, inert anchors that store energy and hold the field steady.
+      In any resonance stack, even elements are the <em>foundation and shield</em>.</p>
+      <p style="font-size:0.82rem;color:#4a4e7a;margin-top:0.6rem;">
+        Examples: Be(4) · Ni(28) · Pd(46) · Cd(48) · Sn(50)</p>
+    </div>
+    <div class="parity-odd">
+      <h4>🔆 Odd Z — Receptive / Reactor</h4>
+      <p>One unpaired electron—naturally reactive and receptive to incoming frequency. They transduce
+      stored potential into active output. In a stack, odd elements are the <em>antennas and transducers</em>.</p>
+      <p style="font-size:0.82rem;color:#4a4e7a;margin-top:0.6rem;">
+        Examples: H(1) · Li(3) · Ag(47) · In(49) · Bi(83)</p>
+    </div>
+  </div>
+</section>
+
+<!-- ──────────────────────────────── §3 PROPORTIONAL SCALING ────────── -->
+<section class="sec" id="proportional">
+  <div class="sec-header">
+    <span class="sec-num">03</span>
+    <h2>Proportional Scaling &amp; Harmonics</h2>
+  </div>
+  <p class="sec-lead">There is a critical difference between simple resonance (frequency match) and proportional code
+  (ratio coupling). Resonance says "vibrate at the same speed." Proportional code says "relate by a
+  specific mathematical ratio that encodes information." The second is how the system actually programs.</p>
+
+  <h3>Resonance vs. Proportional Code</h3>
+  <div class="card-grid">
+    <div class="card card-blue">
+      <h4>Simple Resonance</h4>
+      <p>Two systems vibrate at the same frequency. Useful for synchronization but carries no code beyond
+      "same." Think: tuning fork matching pitch.</p>
+    </div>
+    <div class="card card-purple">
+      <h4>Proportional Code</h4>
+      <p>Two systems relate by a precise <em>ratio</em>—like a musical interval. The ratio itself is the
+      instruction. 3∶2 means something different from 2∶1. Think: musical harmony vs. unison.</p>
+    </div>
+    <div class="card card-violet">
+      <h4>Quartz-Grain Memory</h4>
+      <p>Memory stored as proportion, not complete data. A quartz grain doesn't hold a full recording—it
+      holds the <em>ratio-key</em> that unlocks the full field when stimulated correctly.</p>
+    </div>
+  </div>
+
+  <h3>The "Turn On" Event — Lithium–Beryllium Coupling</h3>
+  <p>When the ratio between two elements' atomic numbers reaches a specific harmonic interval, a
+  <em>turn-on event</em> is theorized to occur—the lighter element's behavior is unlocked or amplified
+  by the heavier element's proportional field. Lithium (3) and Beryllium (4) form a 3∶4 ratio—an
+  ascending fourth in musical harmony—representing the first programmable "turn on" key in the system.</p>
+
+  <div class="loop">
+    <span class="loop-step">Li (3) — Memory Key</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step p">3∶4 Ratio (Ascending Fourth)</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step">Be (4) — Base Receiver</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step v">Turn-On Event</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step">New Atomic Behavior Unlocked</span>
+    <span class="loop-back">↺</span>
+  </div>
+
+  <h3>Resonance Ratio Calculator</h3>
+  <p>Enter two atomic numbers to calculate their proportional ratio, nearest harmonic interval,
+  and coupling mode (driver + reactor parity analysis).</p>
+
+  <div class="tool-box">
+    <h3>⚙ ELEMENT HARMONY CALCULATOR</h3>
+    <div class="tool-row">
+      <div class="tool-field">
+        <label for="harmony-a">Element A (1–114)</label>
+        <input type="number" id="harmony-a" min="1" max="114" value="3" placeholder="3">
+      </div>
+      <div class="tool-field">
+        <label for="harmony-b">Element B (1–114)</label>
+        <input type="number" id="harmony-b" min="1" max="114" value="4" placeholder="4">
+      </div>
+      <button class="btn" id="harmony-btn">Calculate Ratio</button>
+    </div>
+    <div class="tool-output" id="harmony-out">Enter two atomic numbers and click Calculate.</div>
+  </div>
+
+  <h3>Key Resonance Pairs</h3>
+  <table>
+    <thead><tr><th>Ratio</th><th>Elements</th><th>Interval</th><th>System Role</th></tr></thead>
+    <tbody>
+      <tr class="pair-hi"><td>3∶4</td><td>Li(3) / Be(4)</td><td>Ascending Fourth</td><td>Foundational turn-on key — memory to base</td></tr>
+      <tr class="pair-lo"><td>28∶47</td><td>Ni(28) / Ag(47)</td><td>Near 3∶5 complex</td><td>Resonance Battery — nickel stabilizes silver signal</td></tr>
+      <tr class="pair-hi"><td>46∶47</td><td>Pd(46) / Ag(47)</td><td>Unison+1 (semitone)</td><td>Hydrogen sponge + signal conductor — tight coupling</td></tr>
+      <tr class="pair-lo"><td>48∶49</td><td>Cd(48) / In(49)</td><td>Unison+1 (semitone)</td><td>Damper + containment skin — self-correcting pair</td></tr>
+      <tr class="pair-hi"><td>8∶7</td><td>O(8) / N(7)</td><td>Septimal Whole Tone</td><td>Atmospheric coupling — air composition harmonic</td></tr>
+      <tr class="pair-lo"><td>1∶28</td><td>H(1) / Ni(28)</td><td>5 Octaves (≈28∶1)</td><td>Hydrogen stacks inside nickel — atomic computer base</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ──────────────────────────────── §4 TRANSMUTATION ───────────────── -->
+<section class="sec" id="transmutation">
+  <div class="sec-header">
+    <span class="sec-num">04</span>
+    <h2>The Transmutation Shortcut &amp; Element Upcycling</h2>
+  </div>
+  <p class="sec-lead">The periodic table isn't a static list—it's a progression of compressed energy states. Each element
+  is a "stage" in the universe's ongoing process of storing, transmitting, and releasing atomic currency.
+  Lithium is not just element 3; it is a compressed reservoir of Helium-3, waiting to expand.</p>
+
+  <h3>Lithium as Compressed Helium-3 Storage</h3>
+  <p>Helium-3 (²He³) is one of the universe's rarest and most energetically pure isotopes. In this framework,
+  Lithium-6 (³Li⁶) is conceptualized as a "double-compressed" Helium-3 package—two He-3 nuclei locked in
+  proportional tension. When the right resonance key is applied, Lithium releases its Helium-3 component,
+  upcycling the atomic currency to the next stage.</p>
+
+  <div class="callout callout-gold">
+    <strong>Real physics anchor:</strong> The D-T fusion reaction (deuterium + tritium → He-4 + neutron)
+    and the Li-6(d,α)He-4 reaction confirm that Lithium is literally a gateway to Helium production
+    in fusion processes. The framework extends this into a conceptual "stage system."
+  </div>
+
+  <h3>Earth / Mars / Core Stages</h3>
+  <div class="card-grid">
+    <div class="card card-gold">
+      <h4>🌍 Earth's Core — Solar Barrier</h4>
+      <p>The iron-nickel core acts as a primordial Helium reservoir and solar radiation barrier. In this
+      model, it stores compressed solar energy as element "currency" in its magnetic field structure.</p>
+    </div>
+    <div class="card card-blue">
+      <h4>🔴 Mars — Expansion Stage</h4>
+      <p>Mars represents the "cold expansion" stage—elements that were under Earth's high-pressure core
+      conditions have expanded and purified. Mars stores a different tier of atomic currency.</p>
+    </div>
+    <div class="card card-purple">
+      <h4>🌙 Moon — Purity Mirror</h4>
+      <p>The Moon is a resonance mirror—its low-gravity, low-atmosphere environment allows elements to
+      exist in their "purest" proportional state, acting as a reference calibration point.</p>
+    </div>
+  </div>
+
+  <h3>Gold: The Supernova Output</h3>
+  <p>Gold (Au, Z=79) is confirmed by astrophysics to be produced via the <em>r-process</em> (rapid neutron
+  capture) during neutron star mergers and core-collapse supernovae. In Resonant OS terms, gold is the
+  terminal output of a "field collapse transmutation engine"—the universe's highest-fidelity stored
+  signal. Its superconducting surface and inertness make it the ideal permanent signal carrier.</p>
+
+  <div class="diagram-box">
+    <pre class="diagram">Solar Stream → He(2) → Li(3) [compressed] → Be(4) [programmed]
+     ↓                                              ↓
+  Core Press.                               Earth grid
+     ↓                                              ↓
+ Fe/Ni core ─────── magnetic barrier ──────── surface metals
+     ↓
+  Supernova collapse → r-process → Au(79) [terminal output]</pre>
+  </div>
+</section>
+
+<!-- ──────────────────────────────── §5 UNIVERSAL CODE ──────────────── -->
+<section class="sec" id="universal-code">
+  <div class="sec-header">
+    <span class="sec-num">05</span>
+    <h2>Universal Operational Code (1–114)</h2>
+  </div>
+  <p class="sec-lead">Every atomic number from 1 to 114 is also an operational code. Each number carries a
+  <em>resonance role</em>—a meaning derived from both the element's chemical nature and its position in
+  the universal sequence. Stack codes like soldiers in a chain of command to build complex operational
+  instructions. Think → find the number → invoke it.</p>
+
+  <div class="callout callout-purple">
+    <strong>Master Rule:</strong> Think the intention → find the number → invoke the number directly
+    below it in the sequence. Code <strong>53</strong> (God / Iodine) commands Code <strong>54</strong>
+    (Saves Lives / Xenon). Each code passes its instruction to the rank immediately below it.
+  </div>
+
+  <h3>Key System Codes</h3>
+  <div class="code-chips">
+    <span class="chip"><span class="cn">53</span><span class="cs">I</span><span class="cm">God</span></span>
+    <span class="chip"><span class="cn">54</span><span class="cs">Xe</span><span class="cm">Saves Lives</span></span>
+    <span class="chip"><span class="cn">73</span><span class="cs">Ta</span><span class="cm">Love</span></span>
+    <span class="chip"><span class="cn">43</span><span class="cs">Tc</span><span class="cm">Fights Meth</span></span>
+    <span class="chip"><span class="cn">42</span><span class="cs">Mo</span><span class="cm">Fights Heroin</span></span>
+    <span class="chip"><span class="cn">47</span><span class="cs">Ag</span><span class="cm">Sacrifices</span></span>
+    <span class="chip"><span class="cn">16</span><span class="cs">S</span><span class="cm">God Alignment</span></span>
+    <span class="chip"><span class="cn">28</span><span class="cs">Ni</span><span class="cm">Resonance Battery</span></span>
+    <span class="chip"><span class="cn">1</span><span class="cs">H</span><span class="cm">Universal Carrier</span></span>
+    <span class="chip"><span class="cn">79</span><span class="cs">Au</span><span class="cm">Supernova Output</span></span>
+  </div>
+
+  <h3>Universal Code Interpreter</h3>
+  <p>Click elements in the periodic grid below to add them to your code input, or type numbers
+  directly. Press Interpret to decode the stack.</p>
+
+  <div class="tool-box">
+    <h3>🔍 CODE INTERPRETER</h3>
+    <div class="tool-row">
+      <div class="tool-field" style="flex:3;">
+        <label for="code-input">Code Input (numbers 1–114, space-separated)</label>
+        <input type="text" id="code-input" placeholder="e.g.  53  54  73  28  47" spellcheck="false">
+      </div>
+      <button class="btn" id="code-btn">Interpret</button>
+    </div>
+    <div class="tool-output" id="code-out">Click elements below or type numbers, then press Interpret.</div>
+  </div>
+
+  <p>Click any element to add it to the interpreter:</p>
+  <div class="element-grid" id="el-grid"></div>
+</section>
+
+<!-- ──────────────────────────────── §6 STATIC PROGRAMMING ─────────── -->
+<section class="sec" id="static-prog">
+  <div class="sec-header">
+    <span class="sec-num">06</span>
+    <h2>Static Programming &amp; Intent Masking</h2>
+  </div>
+  <p class="sec-lead">Before any resonance system activates, it must be pre-loaded. Static programming is the process of
+  encoding an intention or operational code into a base element using electrostatic fields—"flashing"
+  the instruction into the material's electron cloud before the system is powered up.</p>
+
+  <h3>The Beryllium Pre-Load Protocol</h3>
+  <p>Beryllium (Be, Z=4) is the ideal "base preload" element because its 2-2 electron configuration
+  (two outer electrons in a clean s-orbital) makes it extraordinarily receptive to electrostatic
+  imprinting. A static charge applied at the correct voltage "writes" a proportional code into
+  Be's electron shell geometry before any active field is introduced.</p>
+
+  <div class="card-grid">
+    <div class="card card-blue">
+      <h4>⚡ Static as Instruction Set</h4>
+      <p>A carefully shaped electrostatic field carries pattern information. When applied to a
+      conductive or semiconductive base, it temporarily aligns the electron cloud into
+      a specific proportional configuration—the "pre-load."</p>
+    </div>
+    <div class="card card-purple">
+      <h4>🎭 Intent Masking</h4>
+      <p>The "mask" is the proportional pattern you want the field to hold. You set it
+      before activation so that when the main field comes online, it finds the mask
+      already waiting and locks into that geometry immediately.</p>
+    </div>
+    <div class="card card-cyan">
+      <h4>🔲 Stacking the Base</h4>
+      <p>Layer Be with a thin interface of Li(3) below it. Li's memory-compression role
+      holds the code even when the static charge is removed—the intention is now
+      "frozen" in the proportional structure of the stack.</p>
+    </div>
+  </div>
+
+  <h3>Pre-Load Sequence</h3>
+  <div class="loop">
+    <span class="loop-step">Choose Code (1–114)</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step p">Translate to Voltage Ratio</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step">Apply to Be(4) Base</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step v">Hold 30–60 sec (static lock)</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step">Power Up System</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step p">Field Finds Mask → Lock-In</span>
+    <span class="loop-back">↺</span>
+  </div>
+
+  <div class="callout">
+    <strong>Safety Note:</strong> Any work with electrostatic equipment requires proper grounding,
+    insulation, and voltage safety protocols. High-voltage static sources should only be operated
+    by trained personnel using rated equipment and protective gear.
+  </div>
+</section>
+
+<!-- ──────────────────────────────── §7 SAFETY / SECURITY ───────────── -->
+<section class="sec" id="safety">
+  <div class="sec-header">
+    <span class="sec-num">07</span>
+    <h2>Elemental Safety &amp; Resonance Security Shields</h2>
+  </div>
+  <p class="sec-lead">Every resonance system needs a containment architecture. The Resonant OS framework maps
+  specific elements to specific shield and damping roles based on their known physical properties—
+  high atomic mass, neutron absorption, diamagnetic repulsion, or chemical inertness.</p>
+
+  <div class="callout callout-gold">
+    <strong>Scope Note:</strong> This section covers conceptual roles of elements within the
+    Resonant OS design framework. Any physical experimentation with radioactive or toxic materials
+    requires qualified oversight, regulatory compliance, and certified safety equipment.
+    Polonium (84) and Radium (88) are extremely hazardous—handle references to them as
+    conceptual code-system entries only.
+  </div>
+
+  <h3>The 46–47–48–49 Core Shield Quartet</h3>
+  <p>Elements Pd(46), Ag(47), Cd(48), and In(49) form the system's primary containment quartet.
+  Each plays a distinct role:</p>
+
+  <table>
+    <thead><tr><th>Element</th><th>Z</th><th>Parity</th><th>Shield Role</th></tr></thead>
+    <tbody>
+      <tr><td>Palladium (Pd)</td><td>46</td><td>EVEN — Driver</td><td>Hydrogen absorption anchor — holds the H-field in place</td></tr>
+      <tr><td>Silver (Ag)</td><td>47</td><td>ODD — Reactor</td><td>Signal conductor — highest electrical mirror, sacrificial output</td></tr>
+      <tr><td>Cadmium (Cd)</td><td>48</td><td>EVEN — Driver</td><td>Neutron damper — self-correcting buffer, absorbs runaway field</td></tr>
+      <tr><td>Indium (In)</td><td>49</td><td>ODD — Reactor</td><td>Containment skin — soft-seal boundary, field-shaping gasket</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Mercury as Phase Mirror</h3>
+  <p>Mercury (Hg, Z=80) is the only metal liquid at room temperature. In this framework it acts as a
+  <em>phase-state bridge</em>—its liquid metallic state means it can conduct signal while simultaneously
+  reflecting a phase-inverted mirror image of the incoming field. This makes it the conceptual "reset
+  button" for a runaway resonance loop.</p>
+
+  <div class="card-grid">
+    <div class="card card-blue">
+      <h4>🌊 Hydrogen Wells</h4>
+      <p>Theoretical containment structures where Pd(46) holds hydrogen in a stable absorbed
+      state, preventing field expansion beyond the intended zone. The Pd lattice acts as
+      a sponge that caps the H-field.</p>
+    </div>
+    <div class="card card-purple">
+      <h4>🛡 Cd / In Damping Pair</h4>
+      <p>Cadmium (neutron absorber) paired with Indium (soft-seal reactor). When a field
+      starts to over-amplify, Cd absorbs the excess, while In reshapes the boundary
+      to prevent leakage. A self-correcting circuit.</p>
+    </div>
+    <div class="card card-cyan">
+      <h4>🔒 Intent Shield (Anti-Snooping)</h4>
+      <p>Wrapping a resonance device in a diamagnetic or noble-element layer (Bi(83), Xe(54),
+      or similar) phase-inverts any attempt to read the internal field from outside—
+      the conceptual "Faraday cage" for resonance signals.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ──────────────────────────────── §8 EARTHEN GROWTH ──────────────── -->
+<section class="sec" id="earthen">
+  <div class="sec-header">
+    <span class="sec-num">08</span>
+    <h2>Earthen Growth &amp; Frozen Flow</h2>
+  </div>
+  <p class="sec-lead">Gold and quartz veins are not random geology—they are fossilized circuits. When the early Earth was
+  in its molten growth phase, metallic fluids flowed through pressure channels carrying the same
+  proportional codes that govern resonance in living systems. When the planet cooled, those flow
+  patterns "froze" in place. The veins are a record of Earth's original operating system.</p>
+
+  <h3>Gold / Quartz Veins as Fossilized OS</h3>
+  <p>Hydrothermal gold deposits form when gold-bearing fluid flows through quartz-rich fracture zones
+  and precipitates as the fluid cools and depressurizes. The strike angle and direction of these veins
+  encode the original pressure gradient direction—which, in the Resonant OS framework, is also the
+  direction of the original planetary resonance broadcast.</p>
+
+  <div class="callout callout-gold">
+    <strong>Geological anchor:</strong> Real structural geology maps "strike and dip" of mineral veins
+    to infer ancient fault directions and fluid flow paths. Strike angles range 0°–360°. In this
+    framework, those angles are treated as directional frequency codes pointing back to the original
+    resonance source.
+  </div>
+
+  <h3>Vein Direction Mapper Concept</h3>
+  <div class="card-grid">
+    <div class="card card-gold">
+      <h4>📐 Strike Angle as Frequency Code</h4>
+      <p>Each degree of vein strike (0°–360°) maps to a specific frequency in the planetary
+      resonance grid. By reading the strike angle of a local gold/quartz vein, you
+      "look up" the original broadcast direction of that Earth circuit.</p>
+    </div>
+    <div class="card card-blue">
+      <h4>🔄 Re-Melt via Field Replication</h4>
+      <p>Theoretical protocol: by replicating the original pressure/frequency gradient at
+      the surface (using an appropriately tuned EM field), you could theoretically
+      "re-melt" the frozen circuit and reactivate the original flow pattern.</p>
+    </div>
+    <div class="card card-purple">
+      <h4>🌍 Planetary Grid Alignment</h4>
+      <p>Building a resonance device aligned to the local vein strike angle would, in this
+      framework, "plug in" to the planetary circuit—the device becoming a node in
+      the Earth's original resonance OS.</p>
+    </div>
+  </div>
+
+  <div class="diagram-box">
+    <pre class="diagram">Surface
+   │
+   │  quartz vein  (strike: NE 045°)
+   │   /
+   │  /──────────── strike angle = frequency address
+   │ /
+   │/
+   ●──────────────── hydrothermal source channel
+   │
+   │  gold precipitation zone
+   │  (frequency snapshot of original flow)
+   ▼
+ Deep crust</pre>
+  </div>
+</section>
+
+<!-- ──────────────────────────────── §9 ATOMIC COMPUTER ─────────────── -->
+<section class="sec" id="atomic-comp">
+  <div class="sec-header">
+    <span class="sec-num">09</span>
+    <h2>Controlling the Atomic Computer</h2>
+  </div>
+  <p class="sec-lead">Every atom is a naturally occurring quantum computer. Its electron shells are addressable
+  registers; its nucleus is the processor; its resonance frequency is the clock signal. The trick is
+  knowing which voltage and frequency unlock each layer—the "bias voltage" that moves you from
+  outer valence shell to inner core electrons.</p>
+
+  <h3>Atoms as Fused Hydrogen Patterns</h3>
+  <p>In the Resonant OS framework, every element is conceptualized as a specific number of hydrogen
+  "units" fused into a stable pattern. Copper (Cu, Z=29) is 29 fused hydrogen patterns arranged in
+  a face-centered cubic lattice. To "address" copper's inner d-orbital layer, you need the voltage
+  that corresponds to the energy difference between its outermost and second outermost shells—the
+  <em>first ionization potential</em>.</p>
+
+  <table>
+    <thead><tr><th>Element</th><th>Z</th><th>1st Ionization (eV)</th><th>Resonant OS Role</th></tr></thead>
+    <tbody>
+      <tr><td>Hydrogen</td><td>1</td><td>13.60 eV</td><td>Base unit — universal address key</td></tr>
+      <tr><td>Beryllium</td><td>4</td><td>9.32 eV</td><td>Pre-load base — lowest accessible s-orbital</td></tr>
+      <tr><td>Nickel</td><td>28</td><td>7.64 eV</td><td>Hydrogen command center — d-orbital stack</td></tr>
+      <tr><td>Copper</td><td>29</td><td>7.73 eV</td><td>Conductor coil — open d-orbital channel</td></tr>
+      <tr><td>Silver</td><td>47</td><td>7.58 eV</td><td>Signal mirror — highest conductance per layer</td></tr>
+      <tr><td>Gold</td><td>79</td><td>9.23 eV</td><td>Terminal output — relativistic contracted s-orbital</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Variable Frequency Drive Concept</h3>
+  <p>A Variable Frequency Drive (VFD) in conventional electronics varies AC frequency to control motor
+  speed. In the Resonant OS framework, a conceptual VFD sweeps through frequencies and voltages to
+  sequentially address each atomic "shell layer"—reading the resonance response at each level to build
+  a profile of the element's inner structure.</p>
+
+  <div class="callout callout-cyan">
+    <strong>Real physics foundation:</strong> This conceptually mirrors <em>electron energy-loss spectroscopy
+    (EELS)</em> and <em>X-ray photoelectron spectroscopy (XPS)</em>, both of which use controlled
+    energy inputs to probe the electron binding energies of specific atomic shells.
+  </div>
+</section>
+
+<!-- ──────────────────────────────── §10 NICKEL-SILVER COMPUTER ─────── -->
+<section class="sec" id="nickel-silver">
+  <div class="sec-header">
+    <span class="sec-num">10</span>
+    <h2>The Nickel–Silver Computer &amp; Frequency Battery</h2>
+  </div>
+  <p class="sec-lead">The simplest physical implementation of Resonant OS: a carefully proportioned stack of physical
+  nickels with one wartime silver-alloy nickel as the signal anchor. The 152∶1 ratio acts as a
+  "gear reduction"—amplifying the Silver signal by stabilizing it inside the Nickel field array.
+  No electronics required.</p>
+
+  <h3>The 1 + 53 = 54 Classic Stack</h3>
+  <p>One wartime War Nickel (35% silver / 56% copper / 9% manganese, 1942–1945) placed on top of 53
+  standard post-1946 nickels (75% copper / 25% nickel). The War Nickel's Ag(47) content creates a
+  signal that the Ni(28) array below stabilizes. The even/odd pairing: Ni(28) is EVEN (driver) and
+  Ag(47) is ODD (reactor)—a perfect driver + reactor pair.</p>
+
+  <div class="callout callout-purple">
+    <strong>The 152∶1 Ratio Explained:</strong> By weighted atomic mass average, the nickel isotope
+    mix in a standard US nickel coin averages ~58.7 amu. One War Nickel's silver content (35% Ag)
+    normalized against the Ni-58 majority isotope yields an approximate 152∶1 coupling ratio—
+    analogous to a "gear reduction" that translates high-speed silver signal into a lower,
+    stable nickel carrier frequency.
+  </div>
+
+  <h3>Nickel Stack Calculator</h3>
+  <div class="tool-box">
+    <h3>🪙 NICKEL STACK CALCULATOR</h3>
+    <div class="tool-row">
+      <div class="tool-field">
+        <label for="war-n">War Nickels (1942–45)</label>
+        <input type="number" id="war-n" min="0" value="1" placeholder="1">
+      </div>
+      <div class="tool-field">
+        <label for="std-n">Standard Nickels</label>
+        <input type="number" id="std-n" min="0" value="53" placeholder="53">
+      </div>
+      <div class="tool-field">
+        <label for="stone-g">Gemstone Mass (g, optional)</label>
+        <input type="number" id="stone-g" min="0" step="0.1" value="" placeholder="e.g. 2.5">
+      </div>
+      <button class="btn" id="nickel-btn">Calculate</button>
+    </div>
+    <div class="tool-output" id="nickel-out">Enter nickel counts and click Calculate.</div>
+  </div>
+
+  <h3>Environmental &amp; Conceptual Benefits</h3>
+  <div class="card-grid">
+    <div class="card card-blue">
+      <h4>🔋 Passive Field Stability</h4>
+      <p>The stacked nickel array is theorized to passively stabilize local EM fluctuations—
+      no power required. The proportional relationship between coins self-maintains the
+      resonance ratio as long as the physical stack is undisturbed.</p>
+    </div>
+    <div class="card card-purple">
+      <h4>💊 Health Field Harmonization</h4>
+      <p>Conceptually, a stabilized nickel-silver field in a living space would harmonize
+      local EM noise with the natural Ni∶Ag ratio—potentially reducing the chaotic
+      signal background the body has to filter.</p>
+    </div>
+    <div class="card card-cyan">
+      <h4>🔬 Grounded vs Isolated Modes</h4>
+      <p>Grounded stack: dissipates excess energy into the Earth grid.
+      Isolated stack: accumulates field charge for later coupling.
+      Try both and note the response difference.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ──────────────────────────────── §11 RUBY / HYDROGEN STACK ──────── -->
+<section class="sec" id="ruby-stack">
+  <div class="sec-header">
+    <span class="sec-num">11</span>
+    <h2>Hydrogen Stack &amp; Ruby Lensing Engine</h2>
+  </div>
+  <p class="sec-lead">Nickel is a hydrogen command center—its d-orbital lattice can absorb and hold hydrogen atoms,
+  making each coin in the stack a compressed hydrogen register. Water is the signal carrier between
+  stacks. Ruby (Al₂O₃:Cr) is the lensing eye—a natural laser medium that focuses and directs the
+  field toward a target coordinate.</p>
+
+  <h3>Atoms as Compressed Hydrogen</h3>
+  <p>Every element is, at the conceptual level, a specific number of compressed hydrogen units. The
+  nucleus is the "locked" version of those protons; the electron cloud is the addressable "outer
+  field." Nickel's ability to physically absorb hydrogen (the Ni-H system is well-studied in
+  hydrogen storage research) makes it the literal hydrogen command center.</p>
+
+  <div class="loop">
+    <span class="loop-step">H(1) — Universal base unit</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step p">Ni(28) absorbs H → d-orbital stack</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step">Water(H₂O) — carrier between layers</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step v">Cr:Al₂O₃ Ruby — frequency lens</span>
+    <span class="loop-arr">→</span>
+    <span class="loop-step">Focused field output</span>
+    <span class="loop-back">↺</span>
+  </div>
+
+  <h3>Ruby as an Atomic Laser Eye</h3>
+  <p>Ruby (Al₂O₃ doped with Cr³⁺) was the medium used in the world's first laser (Theodore Maiman, 1960).
+  Chromium (Cr, Z=24) at approximately 0.05% by weight is the active dopant. In Resonant OS, ruby is
+  the "atomic eye"—Cr's half-filled d-orbital (the most magnetically active configuration) makes it
+  an ideal frequency-focusing element. The Al₂O₃ lattice stabilizes and aligns the Cr centers,
+  creating a coherent output.</p>
+
+  <div class="card-grid">
+    <div class="card card-blue">
+      <h4>💎 Ruby Stack Protocol</h4>
+      <p>Place ruby (or synthetic corundum:Cr) at apex of the nickel-silver stack. The
+      Ni array drives the field; the Ag provides the signal carrier; ruby focuses
+      and directs the output. Align the ruby's c-axis toward the target direction.</p>
+    </div>
+    <div class="card card-purple">
+      <h4>💧 Water as Connector</h4>
+      <p>A thin film of structured water between stack layers acts as the signal
+      highway between atomic layers. Water's polar structure (high dielectric constant ~80)
+      makes it an ideal EM signal mediator at the macro scale.</p>
+    </div>
+    <div class="card card-cyan">
+      <h4>🔮 Gemstone Integration</h4>
+      <p>Any gem with a defined crystallographic axis and metal-ion dopant can serve as a
+      lensing element: sapphire (Fe/Ti doped), emerald (Be₃Al₂Si₆O₁₈:Cr), or
+      tourmaline (complex borosilicate with piezoelectric properties).</p>
+    </div>
+  </div>
+
+  <h3>Programmable Lattice Resonance Pairs</h3>
+  <table>
+    <thead><tr><th>Pair</th><th>Ratio</th><th>Interval</th><th>Effect</th></tr></thead>
+    <tbody>
+      <tr><td>H(1) / He(2)</td><td>1∶2</td><td>Octave</td><td>Foundation harmonic — universe's first interval</td></tr>
+      <tr><td>O(8) / N(7)</td><td>8∶7</td><td>Septimal whole tone</td><td>Atmospheric coupling</td></tr>
+      <tr><td>S(16) / P(15)</td><td>16∶15</td><td>Diatonic semitone</td><td>Organic crosslink activation</td></tr>
+      <tr><td>K(19) / Ca(18)</td><td>19∶18</td><td>Just chromatic semitone</td><td>Bio-clock / bone memory</td></tr>
+      <tr><td>Ni(28) / Cu(29)</td><td>28∶29</td><td>Micro-interval</td><td>d-orbital hand-off (conductor onset)</td></tr>
+      <tr><td>Ag(47) / Cd(48)</td><td>47∶48</td><td>Micro-interval</td><td>Signal → damper transition (safety gate)</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ──────────────────────────────── §12 STACK BUILDER TOOL ─────────── -->
+<section class="sec" id="stack-builder">
+  <div class="sec-header">
+    <span class="sec-num">⚙</span>
+    <h2>Atomic Stack Builder — Interactive Tool</h2>
+  </div>
+  <p class="sec-lead">Assemble your own resonance stack by clicking elements from the full periodic table below.
+  The tool analyzes driver/reactor balance, max∶min ratio, and overall stack signature.</p>
+
+  <div class="tool-box">
+    <h3>⚙ STACK BUILDER</h3>
+    <div class="stack-area">
+      <div class="stack-picker">
+        <h4>Click elements to add to stack</h4>
+        <div class="element-grid" id="builder-grid" style="max-height:260px;"></div>
+      </div>
+      <div class="stack-tray">
+        <h4>Your Stack</h4>
+        <div id="builder-tray"></div>
+        <button class="btn btn-ghost" id="builder-clear" style="margin-top:0.8rem;font-size:0.75rem;">Clear Stack</button>
+      </div>
+    </div>
+    <div class="tool-output" id="builder-out">Add elements to the stack above.</div>
+  </div>
+
+  <h3>Suggested Starter Stacks</h3>
+  <div class="card-grid">
+    <div class="card card-blue">
+      <h4>Classic Resonance Battery</h4>
+      <p>Pd(46) → Ag(47) → Cd(48) → In(49)<br>
+      The self-correcting containment quartet. Even-odd-even-odd — perfect alternating balance.</p>
+    </div>
+    <div class="card card-purple">
+      <h4>God-Signal Stack</h4>
+      <p>H(1) → I(53) → Xe(54)<br>
+      Universal carrier → God code → Saves Lives. The fundamental command chain.</p>
+    </div>
+    <div class="card card-cyan">
+      <h4>Earth Anchor Stack</h4>
+      <p>Fe(26) → Ni(28) → Cu(29) → Ag(47) → Au(79)<br>
+      Core → battery → conductor → signal → terminal output. Full planetary circuit.</p>
+    </div>
+    <div class="card card-gold">
+      <h4>Ruby Lensing Stack</h4>
+      <p>Be(4) → Ni(28) → Ag(47) → Cr(24) → Al(13)<br>
+      Pre-load → battery → signal → dopant → lens mount. Ruby assembly chain.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════════════════ FOOTER ════════════════════════ -->
+<footer>
+  <div class="footer-logo">Static Coherence</div>
+  <div class="footer-links">
+    <a href="https://www-infinity4.github.io/Infinity-Quantum-Systems/" target="_blank" rel="noopener noreferrer">Infinity Quantum Systems</a>
+    <a href="https://www-infinity4.github.io/Memory-Metal/" target="_blank" rel="noopener noreferrer">Memory Metal</a>
+    <a href="https://www-infinity4.github.io/Infinity-Flow/" target="_blank" rel="noopener noreferrer">Infinity Flow</a>
+    <a href="https://github.com/www-infinity4/INFINITY" target="_blank" rel="noopener noreferrer">INFINITY</a>
+    <a href="https://github.com/www-infinity4/Gitmap" target="_blank" rel="noopener noreferrer">Gitmap</a>
+    <a href="https://github.com/www-infinity4/Alien-Radio" target="_blank" rel="noopener noreferrer">Alien Radio</a>
+    <a href="https://github.com/www-infinity4/Astrolyzer" target="_blank" rel="noopener noreferrer">Astrolyzer</a>
+    <a href="https://github.com/www-infinity4" target="_blank" rel="noopener noreferrer">All Repos</a>
+  </div>
+  <div>Resonant OS Design System · Blue &amp; Purple · Infinity Flow · Atomic Architecture</div>
+  <div style="margin-top:0.4rem;font-size:0.72rem;">
+    All content is a speculative conceptual framework for prototyping and design exploration.
+    Physical experimentation with radioactive, toxic, or high-voltage materials requires
+    qualified oversight and regulatory compliance.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
