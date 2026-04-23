@@ -492,7 +492,7 @@ function initNickelCalc() {
     if (war <= 0 && std <= 0) { out.textContent = 'Enter at least one nickel count.'; return; }
     const total = war + std;
     const warRatio   = (war > 0 && std > 0) ? `${war}∶${std} = 1∶${(std/war).toFixed(4)}` : 'N/A';
-    const stackRatio = (war > 0) ? `${total}∶${war} = ${(total/war).toFixed(4)}∶1` : 'N/A';
+    const stackRatio = (war > 0 && total > 0) ? `${total}∶${war} = ${(total/war).toFixed(4)}∶1` : 'N/A';
     const lensRatio  = (stone > 0 && total > 0) ? `${total}∶${stone.toFixed(2)} = ${(total/stone).toFixed(4)}∶1` : 'N/A';
 
     const classic = (war === 1 && std === 53);
